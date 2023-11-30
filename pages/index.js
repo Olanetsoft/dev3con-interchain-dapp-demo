@@ -39,7 +39,7 @@ export default function Home() {
     const gas = await api.estimateGasFee(
       EvmChain.FANTOM,
       EvmChain.AVALANCHE,
-      GasToken.MATIC,
+      GasToken.FTM,
       700000,
       2
     );
